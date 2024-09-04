@@ -2,7 +2,7 @@ import pandas as pd
 
 from flask_wtf import FlaskForm
 
-from wtforms import SelectField, FloatField, SubmitField
+from wtforms import SelectField, SubmitField, IntegerField, FloatField
 
 from wtforms.validators import DataRequired
 
@@ -19,9 +19,8 @@ class InputForm(FlaskForm):
         choices=data["TypeName"].unique().tolist(),
         validators=[DataRequired()]
     )
-    inches = SelectField(
+    inches = FloatField(
         label="Inches",
-        choices=data["Inches"].unique().tolist(),
         validators=[DataRequired()]
     )
     screen_resolution = SelectField(
@@ -29,9 +28,8 @@ class InputForm(FlaskForm):
         choices=data["ScreenResolution"].unique().tolist(),
         validators=[DataRequired()]
     )
-    ram = SelectField(
+    ram = IntegerField(
         label="Ram",
-        choices=data["Ram"].unique().tolist(),
         validators=[DataRequired()]
     )
     op_sys = SelectField(
@@ -41,17 +39,14 @@ class InputForm(FlaskForm):
     )
     weight = FloatField(
         label="Weight",
-        choices=data["Weight"].unique().tolist(),
         validators=[DataRequired()]
     )
-    ips = SelectField(
+    ips = IntegerField(
         label="IPS",
-        choices=data["IPS"].unique().tolist(),
         validators=[DataRequired()]
     )
-    touchscreen = SelectField(
+    touchscreen = IntegerField(
         label="Touchscreen",
-        choices=data["Touchscreen"].unique().tolist(),
         validators=[DataRequired()]
     )
     cpu_Brand = SelectField(
@@ -59,24 +54,20 @@ class InputForm(FlaskForm):
         choices=data["CPU_Brand"].unique().tolist(),
         validators=[DataRequired()]
     )
-    ssd = SelectField(
+    ssd = IntegerField(
         label="SSD",
-        choices=data["SSD"].unique().tolist(),
         validators=[DataRequired()]
     )
-    hdd = SelectField(
+    hdd = IntegerField(
         label="HDD",
-        choices=data["HDD"].unique().tolist(),
         validators=[DataRequired()]
     )
-    flash_storage = SelectField(
+    flash_storage = IntegerField(
         label="Flash Storage",
-        choices=data["Flash Storage"].unique().tolist(),
         validators=[DataRequired()]
     )
-    hybrid = SelectField(
+    hybrid = IntegerField(
         label="Hybrid",
-        choices=data["Hybrid"].unique().tolist(),
         validators=[DataRequired()]
     )
     gpu_brand = SelectField(
