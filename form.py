@@ -41,12 +41,14 @@ class InputForm(FlaskForm):
         label="Weight",
         validators=[DataRequired()]
     )
-    ips = IntegerField(
+    ips = SelectField(
         label="IPS",
+        choices=data["ips"].unique().tolist(),
         validators=[DataRequired()]
     )
-    touchscreen = IntegerField(
+    touchscreen = SelectField(
         label="Touchscreen",
+        choices=data["touchscreen"].unique().tolist(),
         validators=[DataRequired()]
     )
     cpu_Brand = SelectField(
