@@ -1,14 +1,15 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-{{ form.hidden_tag() }}
 <form action="", method="post">
+    {{ form.hidden_tag() }}
+    <br>
     <div>
         {{ form.company.label }}
         {{ form.company }}
         {% if form.company.errors %}
              {% for error in form.company.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -18,7 +19,7 @@
         {{ form.typename }}
         {% if form.typename.errors %}
              {% for error in form.typename.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -28,7 +29,7 @@
         {{ form.inches }}
         {% if form.inches.errors %}
              {% for error in form.inches.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -38,7 +39,7 @@
         {{ form.screen_resolution }}
         {% if form.screen_resolution.errors %}
              {% for error in form.screen_resolution.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -48,7 +49,7 @@
         {{ form.ram }}
         {% if form.ram.errors %}
              {% for error in form.ram.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -58,7 +59,7 @@
         {{ form.op_sys }}
         {% if form.op_sys.errors %}
              {% for error in form.op_sys.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -68,7 +69,7 @@
         {{ form.weight }}
         {% if form.weight.errors %}
              {% for error in form.weight.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -78,7 +79,7 @@
         {{ form.ips }}
         {% if form.ips.errors %}
              {% for error in form.ips.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -88,7 +89,7 @@
         {{ form.touchscreen }}
         {% if form.touchscreen.errors %}
              {% for error in form.touchscreen.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -98,7 +99,7 @@
         {{ form.cpu_Brand }}
         {% if form.cpu_Brand.errors %}
              {% for error in form.cpu_Brand.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -108,7 +109,7 @@
         {{ form.ssd }}
         {% if form.ssd.errors %}
              {% for error in form.ssd.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -118,7 +119,7 @@
         {{ form.hdd }}
         {% if form.hdd.errors %}
              {% for error in form.hdd.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -128,7 +129,7 @@
         {{ form.flash_storage }}
         {% if form.flash_storage.errors %}
              {% for error in form.flash_storage.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -138,7 +139,7 @@
         {{ form.hybrid }}
         {% if form.hybrid.errors %}
              {% for error in form.hybrid.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -148,7 +149,7 @@
         {{ form.gpu_brand }}
         {% if form.gpu_brand.errors %}
              {% for error in form.gpu_brand.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
@@ -158,7 +159,7 @@
         {{ form.os }}
         {% if form.os.errors %}
              {% for error in from.os.errors %}
-             <div>{{error}}</div>
+                 <div>{{error}}</div>
              {% endfor %}
         {% endif %}
     </div>
