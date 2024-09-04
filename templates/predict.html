@@ -55,10 +55,10 @@
     </div>
     <br>
     <div>
-        {{ form.op_sys.label }}
-        {{ form.op_sys }}
-        {% if form.op_sys.errors %}
-             {% for error in form.op_sys.errors %}
+        {{ form.opsys.label }}
+        {{ form.opsys }}
+        {% if form.opsys.errors %}
+             {% for error in form.opsys.errors %}
                  <div>{{error}}</div>
              {% endfor %}
         {% endif %}

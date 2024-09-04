@@ -11,12 +11,12 @@ data = pd.read_csv("X_train.csv")
 class InputForm(FlaskForm):
     company = SelectField(
         label="Company",
-        choices= data["Company"].unique().tolist(),
+        choices= data["company"].unique().tolist(),
         validators=[DataRequired()]
     )
     typename = SelectField(
         label="TypeName",
-        choices=data["TypeName"].unique().tolist(),
+        choices=data["typename"].unique().tolist(),
         validators=[DataRequired()]
     )
     inches = FloatField(
@@ -25,16 +25,16 @@ class InputForm(FlaskForm):
     )
     screen_resolution = SelectField(
         label="ScreenResolution",
-        choices=data["ScreenResolution"].unique().tolist(),
+        choices=data["screenresolution"].unique().tolist(),
         validators=[DataRequired()]
     )
     ram = IntegerField(
         label="Ram",
         validators=[DataRequired()]
     )
-    op_sys = SelectField(
+    opsys = SelectField(
         label="OpSys",
-        choices=data["OpSys"].unique().tolist(),
+        choices=data["opsys"].unique().tolist(),
         validators=[DataRequired()]
     )
     weight = FloatField(
@@ -51,7 +51,7 @@ class InputForm(FlaskForm):
     )
     cpu_Brand = SelectField(
         label="CPU_Brand",
-        choices=data["CPU_Brand"].unique().tolist(),
+        choices=data["cpu_brand"].unique().tolist(),
         validators=[DataRequired()]
     )
     ssd = IntegerField(
@@ -72,12 +72,12 @@ class InputForm(FlaskForm):
     )
     gpu_brand = SelectField(
         label="GPU_brand",
-        choices=data["GPU_brand"].unique().tolist(),
+        choices=data["gpu_brand"].unique().tolist(),
         validators=[DataRequired()]
     )
     os = SelectField(
         label="OS",
-        choices=data["OS"].unique().tolist(),
+        choices=data["os"].unique().tolist(),
         validators=[DataRequired()]
     )
     submit = SubmitField("Predict")

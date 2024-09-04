@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import joblib
 
 from flask import Flask, render_template, flash, url_for
@@ -23,13 +24,13 @@ def predict():
             company=[form.company.data],
             typename=[form.typename.data],
             inches=[form.inches.data],
-            screen_resolution=[form.screen_resolution.data],
+            screenresolution=[form.screen_resolution.data],
             ram=[form.ram.data],
-            op_sys=[form.op_sys.data],
+            opsys=[form.opsys.data],
             weight=[form.weight.data],
             ips=[form.ips.data],
             touchscreen=[form.touchscreen.data],
-            cpu_Brand=[form.cpu_Brand.data],
+            cpu_brand=[form.cpu_Brand.data],
             ssd=[form.ssd.data],
             hdd=[form.hdd.data],
             flash_storage=[form.flash_storage.data],
@@ -37,7 +38,7 @@ def predict():
             gpu_brand=[form.gpu_brand.data],
             os=[form.os.data],
         ))
-        prediction = model.predict(x_new)[0]
+        prediction = round(np.exp(model.predict(x_new)[0]),2)
         message = f"The predicted price is {prediction} INR"
     else:
         message = f"Please enter valid inputs!!"

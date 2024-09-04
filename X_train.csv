@@ -1,4 +1,4 @@
-Company,TypeName,Inches,ScreenResolution,Ram,OpSys,Weight,IPS,Touchscreen,CPU_Brand,SSD,HDD,Flash_Storage,Hybrid,GPU_brand,OS
+company,typename,inches,screenresolution,ram,opsys,weight,ips,touchscreen,cpu_brand,ssd,hdd,flash_storage,hybrid,gpu_brand,os
 Dell,Ultrabook,13.3,1920x1080,8,Windows 10,1.23,0,0,Intel Core i7,256,0,0,0,Intel,Windows
 HP,Notebook,13.3,1920x1080,8,Windows 10,1.49,0,0,Intel Core i5,512,0,0,0,Intel,Windows
 Dell,Notebook,15.6,1920x1080,8,Windows 10,1.9,0,0,Intel Core i5,128,0,0,0,Intel,Windows
