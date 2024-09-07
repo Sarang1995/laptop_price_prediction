@@ -1,6 +1,8 @@
 {% extends 'layout.html' %}
 
 {% block content %}
+
+<p>Please fill below information to get a prediction</p>
 <form action="", method="post">
     {{ form.hidden_tag() }}
     <br>
@@ -19,16 +21,6 @@
         {{ form.typename }}
         {% if form.typename.errors %}
              {% for error in form.typename.errors %}
-                 <div>{{error}}</div>
-             {% endfor %}
-        {% endif %}
-    </div>
-    <br>
-    <div>
-        {{ form.inches.label }}
-        {{ form.inches }}
-        {% if form.inches.errors %}
-             {% for error in form.inches.errors %}
                  <div>{{error}}</div>
              {% endfor %}
         {% endif %}
@@ -59,16 +51,6 @@
         {{ form.opsys }}
         {% if form.opsys.errors %}
              {% for error in form.opsys.errors %}
-                 <div>{{error}}</div>
-             {% endfor %}
-        {% endif %}
-    </div>
-    <br>
-    <div>
-        {{ form.weight.label }}
-        {{ form.weight }}
-        {% if form.weight.errors %}
-             {% for error in form.weight.errors %}
                  <div>{{error}}</div>
              {% endfor %}
         {% endif %}
@@ -135,30 +117,10 @@
     </div>
     <br>
     <div>
-        {{ form.hybrid.label }}
-        {{ form.hybrid }}
-        {% if form.hybrid.errors %}
-             {% for error in form.hybrid.errors %}
-                 <div>{{error}}</div>
-             {% endfor %}
-        {% endif %}
-    </div>
-    <br>
-    <div>
         {{ form.gpu_brand.label }}
         {{ form.gpu_brand }}
         {% if form.gpu_brand.errors %}
              {% for error in form.gpu_brand.errors %}
-                 <div>{{error}}</div>
-             {% endfor %}
-        {% endif %}
-    </div>
-    <br>
-    <div>
-        {{ form.os.label }}
-        {{ form.os }}
-        {% if form.os.errors %}
-             {% for error in from.os.errors %}
                  <div>{{error}}</div>
              {% endfor %}
         {% endif %}

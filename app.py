@@ -23,20 +23,16 @@ def predict():
         x_new = pd.DataFrame(dict(
             company=[form.company.data],
             typename=[form.typename.data],
-            inches=[form.inches.data],
             screenresolution=[form.screen_resolution.data],
             ram=[form.ram.data],
             opsys=[form.opsys.data],
-            weight=[form.weight.data],
             ips=[form.ips.data],
             touchscreen=[form.touchscreen.data],
             cpu_brand=[form.cpu_Brand.data],
             ssd=[form.ssd.data],
             hdd=[form.hdd.data],
             flash_storage=[form.flash_storage.data],
-            hybrid=[form.hybrid.data],
-            gpu_brand=[form.gpu_brand.data],
-            os=[form.os.data],
+            gpu_brand=[form.gpu_brand.data]
         ))
         prediction = round(np.exp(model.predict(x_new)[0]),2)
         message = f"The predicted price is {prediction} INR"

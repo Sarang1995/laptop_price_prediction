@@ -19,26 +19,19 @@ class InputForm(FlaskForm):
         choices=data["typename"].unique().tolist(),
         validators=[DataRequired()]
     )
-    inches = FloatField(
-        label="Inches",
-        validators=[DataRequired()]
-    )
     screen_resolution = SelectField(
         label="ScreenResolution",
         choices=data["screenresolution"].unique().tolist(),
         validators=[DataRequired()]
     )
-    ram = IntegerField(
+    ram = SelectField(
         label="Ram",
+        choices=data["ram"].unique().tolist(),
         validators=[DataRequired()]
     )
     opsys = SelectField(
         label="OpSys",
         choices=data["opsys"].unique().tolist(),
-        validators=[DataRequired()]
-    )
-    weight = FloatField(
-        label="Weight",
         validators=[DataRequired()]
     )
     ips = SelectField(
@@ -56,30 +49,24 @@ class InputForm(FlaskForm):
         choices=data["cpu_brand"].unique().tolist(),
         validators=[DataRequired()]
     )
-    ssd = IntegerField(
+    ssd = SelectField(
         label="SSD",
+        choices=data["ssd"].unique().tolist(),
         validators=[DataRequired()]
     )
-    hdd = IntegerField(
+    hdd = SelectField(
         label="HDD",
+        choices=data["hdd"].unique().tolist(),
         validators=[DataRequired()]
     )
-    flash_storage = IntegerField(
+    flash_storage = SelectField(
         label="Flash Storage",
-        validators=[DataRequired()]
-    )
-    hybrid = IntegerField(
-        label="Hybrid",
+        choices=data["flash_storage"].unique().tolist(),
         validators=[DataRequired()]
     )
     gpu_brand = SelectField(
         label="GPU_brand",
         choices=data["gpu_brand"].unique().tolist(),
-        validators=[DataRequired()]
-    )
-    os = SelectField(
-        label="OS",
-        choices=data["os"].unique().tolist(),
         validators=[DataRequired()]
     )
     submit = SubmitField("Predict")
