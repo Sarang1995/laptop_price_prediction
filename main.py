@@ -5,7 +5,10 @@ import joblib
 
 model = joblib.load("model.joblib")
 
-st.write('Lets create project together')
+st.title('Laptop Price Prediction Project')
+st.markdown('We used Regression model to predict a Laptop price')
+
+
 
 data = pd.read_csv("X_train.csv")
 
