@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-from sklearn.metrics import r2_score, mean_squared_error
+from sklearn.metrics import r2_score, mean_absolute_error
 
 model = joblib.load("model.joblib")
 
@@ -37,21 +37,21 @@ input_data = pd.DataFrame([[company,typename,screenresolution,ram,opsys,ips,
 st.dataframe(input_data)
 
 if st.button('Predict'):
-    prediction = round(np.exp(model.predict(input_data)[0]),2)
-    st.success(f"Predicted Laptop Price: ${prediction}")
+    prediction = round(model.predict(input_data)[0],2)
+    st.success(f"Predicted Laptop Price INR: {prediction}")
 
 
-tab1, tab2, tab3 = st.tabs(['R2_score', 'Mean Square Error', 'Mean Root Square Error'])
+tab1, tab2, tab3 = st.tabs(['R2_score', 'Mean Absolute Error', 'Mean Root Square Error'])
 
 with tab1:
     st.header('R2_score')
-    score = round(r2_score(y_test, model.predict(X_test)), 4)
-    st.success(f"r2_score: {score}")
+    score = round((r2_score(y_test, model.predict(X_test)))*100, 2)
+    st.success(f"r2_score: {score}%")
 
 with tab2:
     st.header('Mean Suqare Error')
-    mean_squared_error_score = round(np.exp(mean_squared_error(y_test, model.predict(X_test))), 4)
-    st.success(f"r2_score: {mean_squared_error_score}")
+    mean_squared_error_score = round(mean_absolute_error(y_test, model.predict(X_test)), 4)
+    st.success(f"Mean Square Error: {mean_squared_error_score}")
 
 with tab3:
     st.header('Mean Root Square Error')
