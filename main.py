@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
-import os
+import pickle
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
-model = joblib.load("final_model.joblib")
+with open("final_model.pkl", "rb") as file:
+    model = pickle.load(file)
 
 st.title('Laptop Price Prediction Project')
 st.markdown('We used Regression model to predict a Laptop price')
