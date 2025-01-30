@@ -1,0 +1,261 @@
+company,typename,screenresolution,ram,opsys,ips,touchscreen,cpu_brand,ssd,hdd,flash_storage,gpu_brand
+HP,Notebook,1366x768,4,Windows,No,No,Intel Core i5,No SSD,512GB,No,Intel
+Asus,Notebook,1366x768,4,Windows,No,No,Intel Core i7,No SSD,512GB,No,Nvidia
+Lenovo,Notebook,1366x768,4,Windows,No,No,Other Intel Processor,No SSD,512GB,No,Intel
+HP,Workstation,1920x1080,8,Windows,No,No,Intel Core i7,256GB,No HDD,No,Nvidia
+HP,Notebook,1600x900,8,Windows,No,No,Intel Core i3,256GB,No HDD,No,Intel
+Dell,Gaming,1920x1080,24+,Windows,Yes,No,Intel Core i7,256GB,1TB,No,Nvidia
+Asus,Notebook,1366x768,2,Windows,No,No,AMD Processor,No SSD,No HDD,Yes,AMD
+Asus,Notebook,1366x768,4,Windows,No,No,Other Intel Processor,No SSD,1TB,No,Intel
+Lenovo,Notebook,1920x1080,4,Windows,Yes,No,Intel Core i3,128GB and less,No HDD,No,Intel
+Lenovo,2 in 1 Convertible,1920x1080,8,Windows,Yes,Yes,Intel Core i7,256GB,No HDD,No,Intel
+Asus,Netbook,1366x768,4,Windows,No,No,Other Intel Processor,No SSD,No HDD,Yes,Intel
+HP,Notebook,1366x768,4,Windows,No,No,Intel Core i3,No SSD,512GB,No,Intel
+Acer,Notebook,1366x768,4,Windows,No,No,Intel Core i5,128GB and less,No HDD,No,Intel
+Asus,Notebook,1366x768,4,Windows,No,No,Other Intel Processor,No SSD,No HDD,Yes,Intel
+Lenovo,Notebook,1920x1080,4,Windows,No,No,Intel Core i3,No SSD,512GB,No,Intel
+Lenovo,Gaming,1920x1080,8,Windows,Yes,No,Intel Core i7,256GB,1TB,No,Nvidia
+Asus,Notebook,3840x2160,8,Windows,Yes,No,Intel Core i7,256GB,1TB,No,Nvidia
+Lenovo,Gaming,1920x1080,16,Windows,Yes,No,Intel Core i7,256GB,2TB,No,Nvidia
+Lenovo,Notebook,1920x1080,8,Windows,Yes,No,Intel Core i5,256GB,No HDD,No,Nvidia
+HP,Notebook,1366x768,4,No OS,No,No,Other Intel Processor,128GB and less,No HDD,No,Intel
+Dell,Notebook,1366x768,4,Windows,No,No,Intel Core i3,No SSD,1TB,No,Intel
+Other,Ultrabook,3840x2160,16,Windows,Yes,Yes,Intel Core i7,512GB,No HDD,No,Intel
+Dell,Notebook,1366x768,4,Linux,No,No,Other Intel Processor,No SSD,512GB,No,Intel
+HP,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,No SSD,1TB,No,Nvidia
+Asus,Gaming,1920x1080,16,Windows,Yes,No,AMD Processor,256GB,1TB,No,AMD
+HP,Notebook,1366x768,4,Windows,No,No,Intel Core i5,No SSD,512GB,No,Intel
+Lenovo,Notebook,1366x768,4,Windows,No,No,Intel Core i5,128GB and less,No HDD,No,Intel
+HP,Notebook,1920x1080,8,Windows,Yes,No,Intel Core i3,No SSD,1TB,No,Nvidia
+HP,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,No SSD,1TB,No,Intel
+HP,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Asus,Notebook,1366x768,4,Linux,No,No,Other Intel Processor,No SSD,1TB,No,Intel
+Dell,Notebook,1920x1080,8,Windows,No,No,Intel Core i7,256GB,No HDD,No,Nvidia
+Toshiba,Notebook,1920x1080,4,Windows,No,No,Intel Core i5,128GB and less,No HDD,No,Intel
+Lenovo,Gaming,1920x1080,8,No OS,Yes,No,Intel Core i7,256GB,No HDD,No,Nvidia
+Asus,Ultrabook,1920x1080,16,Windows,No,No,Intel Core i7,512GB,No HDD,No,Nvidia
+Dell,Gaming,1920x1080,8,Windows,No,No,Intel Core i7,No SSD,1TB,No,Nvidia
+Dell,Notebook,1366x768,12,Windows,No,No,Intel Core i7,No SSD,1TB,No,Intel
+Lenovo,Notebook,1920x1080,8,Windows,Yes,No,Intel Core i7,256GB,No HDD,No,Intel
+MSI,Gaming,1920x1080,8,Windows,No,No,Intel Core i7,128GB and less,1TB,No,Nvidia
+Lenovo,Notebook,1920x1080,6,Windows,No,No,AMD Processor,256GB,No HDD,No,AMD
+Dell,Notebook,1366x768,6,Windows,No,No,Intel Core i3,No SSD,1TB,No,Intel
+Lenovo,Notebook,1920x1080,12,Windows,No,No,AMD Processor,512GB,No HDD,No,AMD
+Lenovo,Notebook,1920x1080,8,Windows,No,No,Intel Core i7,256GB,No HDD,No,Intel
+Lenovo,2 in 1 Convertible,3840x2160,16,Windows,Yes,Yes,Intel Core i7,512GB,No HDD,No,Nvidia
+Acer,Notebook,1920x1080,8,Windows,No,No,Intel Core i7,256GB,No HDD,No,Nvidia
+Asus,2 in 1 Convertible,1920x1080,8,Windows,No,Yes,Intel Core i5,256GB,No HDD,No,Intel
+Lenovo,Ultrabook,1920x1080,16,Windows,Yes,No,Intel Core i7,512GB,No HDD,No,Intel
+Dell,Ultrabook,1920x1080,8,Windows,Yes,No,Intel Core i5,128GB and less,1TB,No,Nvidia
+HP,Notebook,1920x1080,4,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Dell,Notebook,1366x768,4,Windows,No,No,Intel Core i3,No SSD,1TB,No,AMD
+Lenovo,Notebook,1920x1080,8,No OS,No,No,Intel Core i7,No SSD,1TB,No,Nvidia
+Dell,Gaming,1920x1080,16,Windows,No,No,Intel Core i7,256GB,1TB,No,Nvidia
+HP,Gaming,1920x1080,8,Windows,Yes,No,Intel Core i7,128GB and less,1TB,No,Nvidia
+Acer,Notebook,1366x768,4,Windows,No,No,AMD Processor,No SSD,512GB,No,AMD
+Dell,Notebook,1366x768,4,Windows,No,No,Intel Core i5,No SSD,512GB,No,Intel
+Dell,Notebook,1920x1080,16,Windows,No,No,Intel Core i7,512GB,No HDD,No,Nvidia
+Dell,Ultrabook,1920x1080,8,Linux,No,No,Intel Core i7,256GB,No HDD,No,Intel
+Dell,2 in 1 Convertible,1920x1080,8,Windows,Yes,Yes,Intel Core i5,256GB,No HDD,No,Intel
+Dell,Ultrabook,3200x1800,8,Windows,No,No,Intel Core i7,256GB,No HDD,No,Intel
+Lenovo,2 in 1 Convertible,3200x1800,16,Windows,Yes,Yes,Intel Core i7,512GB,No HDD,No,Intel
+HP,Ultrabook,1920x1080,8,Windows,Yes,No,Intel Core i7,512GB,No HDD,No,Intel
+Lenovo,Notebook,1920x1080,8,No OS,No,No,Intel Core i5,256GB,No HDD,No,Intel
+HP,Notebook,1920x1080,4,Windows,No,No,AMD Processor,No SSD,512GB,No,AMD
+HP,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,No SSD,1TB,No,Intel
+Acer,Notebook,1920x1080,4,Windows,Yes,No,Intel Core i5,256GB,No HDD,No,Intel
+Lenovo,Notebook,1366x768,2,Windows,No,No,Other Intel Processor,No SSD,No HDD,Yes,Intel
+Acer,Notebook,1366x768,4,Linux,No,No,Intel Core i3,No SSD,512GB,No,Intel
+Acer,Ultrabook,1920x1080,8,Windows,Yes,No,Intel Core i5,256GB,No HDD,No,Intel
+Dell,Ultrabook,1920x1080,8,Windows,Yes,Yes,Intel Core i5,128GB and less,No HDD,No,Intel
+Lenovo,Notebook,1366x768,4,No OS,No,No,Intel Core i5,No SSD,512GB,No,Intel
+Toshiba,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Lenovo,Netbook,1366x768,4,Windows,Yes,No,Other Intel Processor,128GB and less,No HDD,No,Intel
+HP,Notebook,1366x768,4,Windows,No,No,Intel Core i5,No SSD,512GB,No,Intel
+Lenovo,Notebook,1920x1080,6,Windows,No,No,AMD Processor,No SSD,1TB,No,AMD
+Dell,Notebook,1920x1080,4,Windows,No,No,Intel Core i5,No SSD,1TB,No,Intel
+Lenovo,Notebook,1920x1080,4,Windows,No,No,Intel Core i5,No SSD,512GB,No,Intel
+Asus,Gaming,1920x1080,16,Windows,No,No,Intel Core i7,256GB,1TB,No,Nvidia
+Asus,Notebook,1920x1080,8,Linux,No,No,Intel Core i3,No SSD,1TB,No,Nvidia
+Asus,Ultrabook,1920x1080,16,Windows,No,No,Intel Core i7,512GB,No HDD,No,Intel
+HP,Notebook,1920x1080,6,Windows,No,No,AMD Processor,No SSD,No HDD,No,AMD
+Apple,Ultrabook,other,8,Mac,Yes,No,Intel Core i5,512GB,No HDD,No,Intel
+Other,Ultrabook,1920x1080,16,Windows,Yes,Yes,Intel Core i7,512GB,No HDD,No,Intel
+Asus,Notebook,1920x1080,8,Windows,No,No,Intel Core i7,128GB and less,1TB,No,Nvidia
+HP,Ultrabook,1920x1080,8,Windows,Yes,No,Intel Core i7,256GB,No HDD,No,Nvidia
+Asus,Gaming,1920x1080,8,Windows,No,No,Intel Core i7,128GB and less,1TB,No,Nvidia
+Acer,Notebook,1366x768,6,Windows,No,No,AMD Processor,No SSD,1TB,No,AMD
+Lenovo,Gaming,1920x1080,16,Windows,Yes,No,Intel Core i7,512GB,No HDD,No,Nvidia
+HP,Notebook,1920x1080,6,Windows,Yes,No,AMD Processor,128GB and less,No HDD,No,AMD
+Acer,Notebook,1366x768,4,Windows,No,No,Intel Core i5,No SSD,512GB,No,Intel
+Lenovo,Ultrabook,1920x1080,12,Windows,No,No,Intel Core i7,512GB,No HDD,No,Intel
+Dell,Notebook,1920x1080,4,Windows,No,No,Intel Core i7,256GB,No HDD,No,AMD
+Dell,Gaming,1920x1080,24+,Windows,Yes,No,Intel Core i7,1TB,1TB,No,Nvidia
+Lenovo,Ultrabook,1920x1080,8,Windows,Yes,No,Intel Core i5,256GB,No HDD,No,Intel
+Lenovo,Notebook,1920x1080,4,Windows,No,No,Intel Core i7,No SSD,1TB,No,Nvidia
+Lenovo,Gaming,1920x1080,8,Windows,Yes,No,Intel Core i7,128GB and less,1TB,No,Nvidia
+HP,Workstation,1920x1080,8,Windows,No,No,Intel Core i7,256GB,No HDD,No,Nvidia
+MSI,Gaming,1920x1080,8,Windows,Yes,No,Intel Core i7,No SSD,1TB,No,Nvidia
+Toshiba,Ultrabook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Asus,2 in 1 Convertible,1920x1080,12,Windows,No,Yes,Intel Core i7,No SSD,2TB,No,Nvidia
+Dell,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,128GB and less,1TB,No,AMD
+Dell,Ultrabook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Dell,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Lenovo,Gaming,1920x1080,24+,Windows,Yes,No,Intel Core i7,512GB,No HDD,No,Nvidia
+Dell,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Apple,Ultrabook,other,16,Mac,Yes,No,Intel Core i7,256GB,No HDD,No,AMD
+HP,Notebook,1920x1080,4,Windows,Yes,No,Intel Core i5,No SSD,512GB,No,Intel
+HP,Notebook,1920x1080,8,Windows,No,No,Intel Core i7,512GB,No HDD,No,Intel
+Dell,Notebook,1366x768,8,Linux,No,No,Intel Core i5,No SSD,1TB,No,AMD
+HP,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+HP,Ultrabook,1920x1080,8,Windows,No,No,Intel Core i7,256GB,No HDD,No,Intel
+Lenovo,Notebook,1920x1080,8,No OS,No,No,Intel Core i7,No SSD,1TB,No,Nvidia
+Lenovo,Ultrabook,2560x1440,16,Windows,Yes,No,Intel Core i7,512GB,No HDD,No,Intel
+Dell,Notebook,1366x768,8,Windows,No,Yes,Intel Core i3,No SSD,1TB,No,Intel
+Dell,Notebook,1366x768,4,Windows,No,No,Intel Core i3,128GB and less,No HDD,No,Intel
+MSI,Gaming,1920x1080,16,Windows,No,No,Intel Core i7,256GB,1TB,No,Nvidia
+Dell,Notebook,1920x1080,8,Windows,No,No,Intel Core i7,128GB and less,1TB,No,Nvidia
+Dell,2 in 1 Convertible,1920x1080,16,Windows,No,Yes,Intel Core i7,512GB,No HDD,No,Nvidia
+Asus,Notebook,1920x1080,4,Linux,No,No,Intel Core i5,No SSD,1TB,No,Nvidia
+Lenovo,Notebook,1920x1080,4,No OS,No,No,Intel Core i3,256GB,No HDD,No,Intel
+Lenovo,Notebook,1920x1080,4,No OS,No,No,Intel Core i5,No SSD,1TB,No,Intel
+Lenovo,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+HP,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Lenovo,2 in 1 Convertible,2560x1440,16,Windows,No,Yes,Intel Core i7,512GB,No HDD,No,Intel
+HP,Gaming,1920x1080,16,Windows,Yes,No,Intel Core i7,256GB,1TB,No,Nvidia
+Dell,Ultrabook,1920x1080,16,Windows,No,No,Intel Core i7,512GB,No HDD,No,Intel
+Toshiba,Notebook,1366x768,4,Windows,No,No,Intel Core i3,No SSD,512GB,No,Intel
+Acer,Notebook,1920x1080,12,Windows,Yes,Yes,Intel Core i7,No SSD,1TB,No,Intel
+Dell,Notebook,1920x1080,8,Linux,No,No,Intel Core i5,256GB,No HDD,No,Nvidia
+Asus,Ultrabook,1920x1080,16,Windows,No,No,Intel Core i7,256GB,1TB,No,Nvidia
+HP,Notebook,1366x768,4,Windows,No,No,Other Intel Processor,128GB and less,No HDD,No,Intel
+Dell,Ultrabook,1366x768,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+HP,Notebook,1920x1080,4,Windows,Yes,No,Intel Core i5,256GB,No HDD,No,Intel
+Dell,Gaming,1920x1080,16,Windows,Yes,No,Intel Core i7,128GB and less,1TB,No,Nvidia
+Lenovo,Workstation,1920x1080,16,Windows,No,No,Intel Core i7,512GB,No HDD,No,Nvidia
+HP,Notebook,1920x1080,4,Windows,No,No,AMD Processor,No SSD,1TB,No,AMD
+Dell,Notebook,1920x1080,8,Windows,No,No,Intel Core i3,256GB,No HDD,No,AMD
+Acer,Notebook,1920x1080,4,Windows,No,No,Intel Core i5,256GB,No HDD,No,Nvidia
+Dell,Notebook,1366x768,4,Windows,No,No,Intel Core i5,No SSD,512GB,No,Intel
+Lenovo,Notebook,1366x768,8,Windows,No,No,Intel Core i3,No SSD,1TB,No,Intel
+MSI,Gaming,1920x1080,16,Windows,No,No,Intel Core i7,256GB,1TB,No,Nvidia
+Dell,Ultrabook,1920x1080,8,Windows,Yes,Yes,Intel Core i5,128GB and less,No HDD,No,Intel
+Lenovo,Notebook,1600x900,8,No OS,No,No,Intel Core i5,No SSD,1TB,No,Nvidia
+HP,Notebook,1920x1080,4,Windows,No,No,Other Intel Processor,256GB,No HDD,No,Intel
+MSI,Gaming,1920x1080,16,Windows,No,No,Intel Core i7,256GB,1TB,No,Nvidia
+HP,Ultrabook,1920x1080,8,Windows,No,No,Intel Core i7,256GB,No HDD,No,Intel
+Dell,Ultrabook,3200x1800,8,Windows,No,Yes,Intel Core i7,256GB,No HDD,No,Intel
+Acer,Notebook,1920x1080,8,Windows,Yes,No,Intel Core i7,No SSD,1TB,No,Nvidia
+Dell,2 in 1 Convertible,1920x1080,8,Windows,No,Yes,Intel Core i5,256GB,No HDD,No,Intel
+Asus,Notebook,1366x768,4,Windows,No,No,Other Intel Processor,No SSD,No HDD,Yes,Intel
+Lenovo,2 in 1 Convertible,1920x1080,8,Windows,Yes,Yes,Intel Core i7,512GB,No HDD,No,Intel
+HP,Notebook,1920x1080,6,Windows,No,No,AMD Processor,128GB and less,1TB,No,AMD
+Lenovo,Notebook,1920x1080,8,Windows,Yes,No,Intel Core i5,256GB,No HDD,No,Intel
+Lenovo,Gaming,1920x1080,24+,Windows,Yes,No,Intel Core i7,256GB,1TB,No,Nvidia
+HP,Notebook,1366x768,8,Windows,No,No,Other Intel Processor,No SSD,2TB,No,Intel
+Lenovo,Notebook,1366x768,4,Windows,No,No,Intel Core i5,128GB and less,No HDD,No,Intel
+HP,Notebook,1920x1080,8,Windows,Yes,No,Intel Core i5,128GB and less,1TB,No,Nvidia
+Dell,Workstation,1920x1080,8,Windows,No,Yes,Intel Core i7,256GB,No HDD,No,Nvidia
+Asus,Notebook,1920x1080,4,Windows,No,No,Intel Core i3,No SSD,1TB,No,Nvidia
+Asus,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Other,Notebook,1920x1080,4,Windows,Yes,No,Other Intel Processor,No SSD,No HDD,Yes,Intel
+Asus,Gaming,1920x1080,8,Windows,No,No,Intel Core i5,128GB and less,1TB,No,Nvidia
+HP,Notebook,1920x1080,4,Windows,No,No,Intel Core i3,128GB and less,No HDD,No,Intel
+MSI,Gaming,1920x1080,16,Windows,Yes,No,Intel Core i7,256GB,1TB,No,Nvidia
+Acer,Notebook,1920x1080,8,Windows,No,No,Intel Core i7,No SSD,1TB,No,Nvidia
+MSI,Gaming,1920x1080,8,Windows,No,No,Intel Core i7,128GB and less,1TB,No,Nvidia
+HP,Notebook,1920x1080,4,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Acer,Notebook,1366x768,4,Windows,No,No,Intel Core i3,No SSD,1TB,No,Intel
+Lenovo,Notebook,1920x1080,8,Windows,Yes,No,Intel Core i5,256GB,No HDD,No,Nvidia
+HP,Gaming,1920x1080,12,Windows,No,No,Intel Core i7,No SSD,1TB,No,Nvidia
+Dell,Workstation,1920x1080,8,Windows,No,No,Other Intel Processor,No SSD,1TB,Yes,Nvidia
+Asus,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,512GB,No,Nvidia
+Lenovo,2 in 1 Convertible,1920x1080,16,Windows,No,Yes,Intel Core i7,512GB,No HDD,No,Intel
+Dell,Ultrabook,3840x2160,8,Windows,Yes,Yes,Intel Core i7,256GB,No HDD,No,Intel
+Acer,Notebook,1366x768,4,Linux,No,No,Other Intel Processor,No SSD,512GB,No,Intel
+Lenovo,2 in 1 Convertible,other,4,Windows,Yes,Yes,Other Intel Processor,No SSD,No HDD,Yes,Intel
+Apple,Ultrabook,other,8,Mac,Yes,No,Other Intel Processor,No SSD,No HDD,Yes,Intel
+HP,Notebook,1920x1080,8,Windows,No,No,Intel Core i7,256GB,No HDD,No,Nvidia
+Other,Ultrabook,other,8,Windows,No,Yes,Intel Core i5,256GB,No HDD,No,Intel
+HP,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Nvidia
+HP,Notebook,1366x768,8,Windows,No,No,Intel Core i5,128GB and less,No HDD,No,Intel
+HP,Notebook,1366x768,4,Windows,No,No,Intel Core i3,No SSD,512GB,No,Intel
+Apple,Ultrabook,other,8,Mac,Yes,No,Intel Core i5,256GB,No HDD,No,Intel
+Lenovo,Ultrabook,1920x1080,8,Windows,Yes,No,Intel Core i7,No SSD,No HDD,Yes,Intel
+Lenovo,Notebook,1366x768,4,No OS,No,No,Intel Core i3,No SSD,512GB,No,Intel
+Acer,Notebook,1366x768,4,Windows,No,No,Intel Core i3,128GB and less,No HDD,No,Intel
+Asus,2 in 1 Convertible,1366x768,8,Windows,No,Yes,Intel Core i5,No SSD,1TB,No,Intel
+Asus,Gaming,1920x1080,8,Windows,No,No,Intel Core i7,No SSD,1TB,No,Nvidia
+HP,Notebook,1920x1080,12,Windows,Yes,No,Intel Core i7,128GB and less,1TB,No,Nvidia
+Lenovo,Notebook,1920x1080,4,Windows,No,No,AMD Processor,256GB,No HDD,No,AMD
+Lenovo,Ultrabook,2560x1440,16,Windows,Yes,No,Intel Core i7,1TB,No HDD,No,Intel
+Lenovo,Notebook,1920x1080,8,Windows,Yes,No,Intel Core i5,256GB,No HDD,No,Intel
+Lenovo,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,128GB and less,1TB,No,Nvidia
+Dell,Notebook,1366x768,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Dell,Notebook,1366x768,4,Linux,No,No,Other Intel Processor,No SSD,512GB,No,Intel
+Acer,Notebook,1920x1080,4,Windows,No,No,Intel Core i7,No SSD,512GB,No,Nvidia
+Lenovo,2 in 1 Convertible,3200x1800,16,Windows,Yes,Yes,Intel Core i7,512GB,No HDD,No,Intel
+Dell,Ultrabook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Lenovo,Notebook,1600x900,4,Windows,No,No,Intel Core i5,No SSD,1TB,No,Nvidia
+HP,Notebook,1920x1080,4,Windows,No,No,Intel Core i3,No SSD,1TB,No,Intel
+Other,Ultrabook,other,8,Windows,Yes,No,Intel Core i5,256GB,No HDD,No,Intel
+Toshiba,Notebook,1366x768,4,Windows,No,No,Intel Core i3,128GB and less,No HDD,No,Intel
+Dell,Notebook,1920x1080,4,Windows,No,No,Intel Core i5,256GB,No HDD,No,AMD
+Dell,Gaming,3840x2160,16,Windows,Yes,No,Intel Core i7,512GB,1TB,No,Nvidia
+Lenovo,Notebook,1920x1080,4,Windows,No,No,Other Intel Processor,No SSD,512GB,No,Intel
+Lenovo,Notebook,1920x1080,4,Windows,No,No,Intel Core i7,No SSD,No HDD,No,Intel
+Dell,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,AMD
+Toshiba,Notebook,1366x768,4,Windows,Yes,No,Intel Core i5,128GB and less,No HDD,No,Intel
+Other,Ultrabook,1920x1080,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+HP,Notebook,1920x1080,4,Windows,No,No,Intel Core i3,No SSD,512GB,No,Intel
+Lenovo,Notebook,1920x1080,8,Windows,Yes,No,Intel Core i7,512GB,No HDD,No,Intel
+Lenovo,Notebook,1920x1080,8,Windows,Yes,No,Intel Core i5,256GB,No HDD,No,Intel
+Asus,Gaming,1920x1080,12,Linux,No,No,Intel Core i7,No SSD,1TB,No,Nvidia
+MSI,Gaming,1920x1080,16,Windows,No,No,Intel Core i7,512GB,1TB,No,Nvidia
+HP,Notebook,1920x1080,4,Windows,No,No,Intel Core i5,No SSD,512GB,No,Intel
+Asus,Gaming,1920x1080,16,Windows,Yes,No,Intel Core i7,256GB,1TB,No,Nvidia
+Toshiba,Notebook,1366x768,8,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+Acer,Notebook,1600x900,4,Windows,No,No,Intel Core i3,No SSD,1TB,No,Nvidia
+HP,Notebook,1920x1080,4,Windows,No,No,Intel Core i5,No SSD,512GB,No,Intel
+Dell,Notebook,1920x1080,4,Linux,No,No,Intel Core i3,256GB,No HDD,No,AMD
+Other,Notebook,1366x768,8,Windows,No,No,Intel Core i5,No SSD,1TB,No,Intel
+MSI,Gaming,1920x1080,16,Windows,No,No,Intel Core i7,256GB,1TB,No,Nvidia
+Dell,Notebook,1920x1080,16,Windows,No,No,Intel Core i7,No SSD,2TB,No,AMD
+Other,Notebook,1920x1080,4,Windows,No,No,Other Intel Processor,No SSD,No HDD,Yes,Intel
+Asus,Notebook,1920x1080,4,Linux,No,No,Intel Core i3,No SSD,1TB,No,Intel
+HP,Notebook,1366x768,4,No OS,No,No,AMD Processor,No SSD,512GB,No,AMD
+Dell,Notebook,1920x1080,8,Windows,No,No,Intel Core i7,256GB,No HDD,No,AMD
+Acer,Netbook,1366x768,4,Windows,No,No,Other Intel Processor,128GB and less,No HDD,No,Intel
+HP,Notebook,1366x768,8,Windows,No,No,Intel Core i5,No SSD,1TB,No,Nvidia
+Asus,Gaming,1920x1080,16,No OS,Yes,No,Intel Core i7,No SSD,1TB,No,Nvidia
+HP,Ultrabook,1366x768,4,Windows,No,No,Intel Core i5,256GB,No HDD,No,Intel
+MSI,Gaming,1920x1080,8,Windows,No,No,Intel Core i7,128GB and less,1TB,No,Nvidia
+Asus,Gaming,1920x1080,16,Windows,No,No,Intel Core i7,256GB,No HDD,No,Nvidia
+Lenovo,Notebook,1366x768,4,Windows,No,No,Other Intel Processor,No SSD,512GB,No,Intel
+Dell,2 in 1 Convertible,1920x1080,8,Windows,Yes,Yes,Intel Core i7,No SSD,1TB,No,Intel
+Lenovo,Notebook,3840x2160,16,Windows,Yes,No,Intel Core i7,512GB,No HDD,No,Nvidia
+Asus,Gaming,1920x1080,16,Windows,Yes,No,Intel Core i7,256GB,1TB,No,Nvidia
+HP,Notebook,1366x768,8,Windows,No,No,AMD Processor,128GB and less,No HDD,No,AMD
+Acer,Notebook,1366x768,8,Windows,No,No,AMD Processor,No SSD,1TB,No,AMD
+Acer,Notebook,1366x768,4,Windows,No,No,AMD Processor,256GB,No HDD,No,AMD
+Apple,Ultrabook,other,8,Mac,Yes,No,Other Intel Processor,No SSD,No HDD,Yes,Intel
+Lenovo,2 in 1 Convertible,1920x1080,8,Windows,Yes,Yes,Intel Core i7,512GB,No HDD,No,Intel
+Dell,Ultrabook,3200x1800,8,Windows,No,Yes,Intel Core i5,256GB,No HDD,No,Intel
+Lenovo,Notebook,1920x1080,8,Windows,No,No,Intel Core i5,128GB and less,1TB,No,AMD
+Dell,Notebook,1366x768,4,Windows,No,No,Intel Core i3,128GB and less,No HDD,No,AMD
+Lenovo,Notebook,1366x768,4,Windows,No,No,Intel Core i3,128GB and less,No HDD,No,Intel
+Toshiba,Notebook,1366x768,4,Windows,No,No,Intel Core i5,No SSD,512GB,No,Intel
+HP,Workstation,1920x1080,8,Windows,No,No,Intel Core i7,256GB,No HDD,No,Nvidia
+Dell,Notebook,1366x768,6,Windows,No,No,Intel Core i3,No SSD,1TB,No,Intel
+Acer,Notebook,1920x1080,8,Linux,No,No,Intel Core i7,No SSD,1TB,No,Nvidia
+HP,Notebook,1920x1080,8,Windows,No,No,Intel Core i7,No SSD,1TB,No,Nvidia
+Acer,Gaming,1920x1080,8,Windows,Yes,No,Intel Core i5,256GB,No HDD,No,Nvidia
+Dell,Notebook,3840x2160,8,Windows,Yes,Yes,Intel Core i5,256GB,No HDD,No,Nvidia
+Lenovo,Notebook,1920x1080,4,Windows,Yes,No,Intel Core i5,No SSD,1TB,No,Nvidia
+Asus,Notebook,1366x768,8,Windows,No,No,Other Intel Processor,No SSD,1TB,No,Intel
+Lenovo,Notebook,1920x1080,12,Windows,No,No,AMD Processor,No SSD,2TB,No,AMD
+HP,Notebook,1366x768,8,Windows,No,No,Intel Core i7,No SSD,1TB,No,Intel
+Asus,Gaming,1920x1080,8,Windows,Yes,No,Intel Core i5,128GB and less,1TB,No,Nvidia
+Dell,Ultrabook,1920x1080,8,Windows,Yes,No,Intel Core i5,256GB,No HDD,No,Intel
+Lenovo,2 in 1 Convertible,1920x1080,8,Windows,Yes,Yes,Intel Core i7,512GB,No HDD,No,Nvidia
+Asus,Netbook,1366x768,2,Windows,No,No,Other Intel Processor,No SSD,No HDD,Yes,Intel

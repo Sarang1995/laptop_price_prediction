@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+from sklearn.metrics import r2_score, mean_squared_error
 
 model = joblib.load("model.joblib")
 
@@ -11,6 +12,8 @@ st.markdown('We used Regression model to predict a Laptop price')
 
 
 data = pd.read_csv("X_train.csv")
+X_test = pd.read_csv('X_test.csv')
+y_test = pd.read_csv("y_test.csv")
 
 company = st.selectbox('Pick your company', data["company"].unique().tolist())
 typename = st.selectbox('Pick your type name', data["typename"].unique().tolist())
@@ -36,3 +39,19 @@ st.dataframe(input_data)
 if st.button('Predict'):
     prediction = round(np.exp(model.predict(input_data)[0]),2)
     st.success(f"Predicted Laptop Price: ${prediction}")
+
+
+tab1, tab2, tab3 = st.tabs(['R2_score', 'Mean Square Error', 'Mean Root Square Error'])
+
+with tab1:
+    st.header('R2_score')
+    score = round(r2_score(y_test, model.predict(X_test)), 4)
+    st.success(f"r2_score: {score}")
+
+with tab2:
+    st.header('Mean Suqare Error')
+    mean_squared_error_score = round(np.exp(mean_squared_error(y_test, model.predict(X_test))), 4)
+    st.success(f"r2_score: {mean_squared_error_score}")
+
+with tab3:
+    st.header('Mean Root Square Error')
