@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-from sklearn.metrics import r2_score, mean_absolute_error
+from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
 model = joblib.load("model.joblib")
 
@@ -49,9 +49,11 @@ with tab1:
     st.success(f"r2_score: {score}%")
 
 with tab2:
-    st.header('Mean Suqare Error')
-    mean_squared_error_score = round(mean_absolute_error(y_test, model.predict(X_test)), 4)
-    st.success(f"Mean Square Error: {mean_squared_error_score}")
+    st.header('Mean Absolute Error')
+    mean_absolute_error_score = round(mean_absolute_error(y_test, model.predict(X_test)), 4)
+    st.success(f"Mean Absolute Error: {mean_absolute_error_score}")
 
 with tab3:
-    st.header('Mean Root Square Error')
+    st.header('Root Mean Squared Error')
+    RMSE = round(np.sqrt(mean_squared_error(y_test, model.predict(X_test))), 4)
+    st.success(f"Root Mean Squared Error: {RMSE}")
