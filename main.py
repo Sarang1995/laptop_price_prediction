@@ -4,6 +4,9 @@ import numpy as np
 import pickle
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
+import sklearn
+st.write(f"scikit-learn version: {sklearn.__version__}")
+
 with open("final_model.pkl", "rb") as file:
     model = pickle.load(file)
 
