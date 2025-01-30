@@ -4,12 +4,12 @@ import numpy as np
 import joblib
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
-model = joblib.load("final_model.joblib")
+model_path = "C:/Users/yogesh/Desktop/Flask/Laptop Price Prediction/final_model.joblib"
+
+model = joblib.load(model_path)
 
 st.title('Laptop Price Prediction Project')
 st.markdown('We used Regression model to predict a Laptop price')
-
-
 
 data = pd.read_csv("X_train.csv")
 X_test = pd.read_csv('X_test.csv')
