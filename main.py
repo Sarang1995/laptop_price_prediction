@@ -2,9 +2,15 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import os
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
-model_path = "C:/Users/yogesh/Desktop/Flask/Laptop Price Prediction/final_model.joblib"
+# model_path = "C:/Users/yogesh/Desktop/Flask/Laptop Price Prediction/final_model.joblib"
+# Get the directory where the script is running
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Use a relative path
+model_path = os.path.join(BASE_DIR, "final_model.joblib")
 
 model = joblib.load(model_path)
 
