@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
-model = joblib.load("model.joblib")
+model = joblib.load("final_model.joblib")
 
 st.title('Laptop Price Prediction Project')
 st.markdown('We used Regression model to predict a Laptop price')
